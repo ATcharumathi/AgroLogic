@@ -15,7 +15,7 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 
 
 # ---------------- PAGE CONFIG ----------------
-
+st.set_page_config(page_title="AgroLogic AI", layout="wide")
 # ---------------- BACKGROUND ----------------
 def get_base64(file):
     with open(file, "rb") as f:
